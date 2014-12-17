@@ -1,0 +1,962 @@
+@import url(html5-reset-stylesheet.css);
+@import url(../fonts/font-awesome-4.2.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700|Rajdhani:400,600);
+/* 960 or 1120px*/
+/*66px / 960px * 100%;*/
+/* $OneCol: 8.333% - $ContentSpace; /*66px / 960px * 100%;*/
+/* line 10, ../sass/layout.scss */
+.Column {
+  /*background-color: #f9f9f9; */
+  float: left;
+  margin-right: 1.562%;
+  margin-top: 1.562%;
+}
+
+/* line 17, ../sass/layout.scss */
+.OneCol {
+  width: 6.874%;
+}
+
+/* line 18, ../sass/layout.scss */
+.TwoCol {
+  width: 15.31%;
+}
+
+/* line 19, ../sass/layout.scss */
+.ThreeCol {
+  width: 23.746%;
+}
+
+/* line 20, ../sass/layout.scss */
+.FourCol {
+  width: 32.182%;
+}
+
+/* line 21, ../sass/layout.scss */
+.FiveCol {
+  width: 40.618%;
+}
+
+/* line 22, ../sass/layout.scss */
+.SixCol, .HalfWidth {
+  width: 49.054%;
+}
+
+/* line 23, ../sass/layout.scss */
+.SevenCol {
+  width: 57.49%;
+}
+
+/* line 24, ../sass/layout.scss */
+.EightCol {
+  width: 72.8%;
+}
+
+/* line 25, ../sass/layout.scss */
+.NineCol {
+  width: 74.362%;
+}
+
+/* line 26, ../sass/layout.scss */
+.TenCol {
+  width: 82.798%;
+}
+
+/* line 27, ../sass/layout.scss */
+.ElevenCol {
+  width: 91.234%;
+}
+
+/* line 28, ../sass/layout.scss */
+.TwelveCol {
+  width: 99.67%;
+}
+
+/* line 30, ../sass/layout.scss */
+.FullWidth {
+  width: 100%;
+}
+
+/* line 32, ../sass/layout.scss */
+.last {
+  margin-right: 0 !Important;
+  border: 0!Important;
+}
+
+/*@media screen and (max-width: 960px) {
+     // seus estilos vão aqui ....
+}*/
+/* line 1, ../sass/base.scss */
+h1 {
+  color: #db5627;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+/* line 2, ../sass/base.scss */
+h2 {
+  color: #8d2b24;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+/* line 3, ../sass/base.scss */
+h3 {
+  color: gray;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+/* line 4, ../sass/base.scss */
+h4 {
+  color: gray;
+  font-family: "Dosis", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+/* line 5, ../sass/base.scss */
+h5 {
+  color: gray;
+  font-family: "Dosis", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+/* line 6, ../sass/base.scss */
+h6 {
+  color: gray;
+  font-family: "Dosis", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+/* line 8, ../sass/base.scss */
+p, span {
+  color: gray;
+  font-family: "Dosis", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+/* line 10, ../sass/base.scss */
+a, a:visited {
+  color: #8d2b24;
+  font-family: "Dosis", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+/* line 12, ../sass/base.scss */
+a:hover {
+  color: #501814;
+}
+
+/* line 14, ../sass/base.scss */
+button {
+  border: none;
+  padding: 0.6em 1.2em;
+  background: gray;
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  margin: 3px 2px;
+  border-radius: 3px;
+}
+
+/* line 27, ../sass/base.scss */
+button:hover {
+  background: #595959;
+}
+
+/* line 31, ../sass/base.scss */
+button.CallToAction {
+  background: #43744a;
+}
+
+/* line 35, ../sass/base.scss */
+button.CallToAction {
+  background: #27442b;
+}
+
+/* line 39, ../sass/base.scss */
+button.Negative {
+  background: #8d2b24;
+}
+
+/* line 43, ../sass/base.scss */
+button.Negative {
+  background: #501814;
+}
+
+/* line 47, ../sass/base.scss */
+.title {
+  color: #db5627 !important;
+}
+
+/* line 49, ../sass/base.scss */
+.vertical, nav.ContenxtMenu ul li {
+  display: inline;
+  border-right: 1px solid gray;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+/* line 56, ../sass/base.scss */
+.separator, .separator-inner {
+  width: 1120px;
+  height: 5px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+/* line 60, ../sass/base.scss */
+.separator-inner {
+  width: 100%;
+  clear: both;
+  padding: 5px 0;
+}
+
+/* line 66, ../sass/base.scss */
+.line {
+  width: 1120px;
+  height: 1px;
+  margin: 35px auto;
+  padding: 0px;
+  background-color: #bfbfbf !important;
+}
+
+/* line 70, ../sass/base.scss */
+.aCenter * {
+  text-align: center;
+}
+
+/* line 74, ../sass/base.scss */
+.aRight, .aRight * {
+  text-align: right;
+}
+
+/* line 78, ../sass/base.scss */
+.aleft * {
+  text-align: left;
+}
+
+/* line 82, ../sass/base.scss */
+.hide {
+  display: none;
+}
+
+/*MODAL ITENS*/
+/* line 87, ../sass/base.scss */
+.md-content h1 {
+  margin: 0;
+  padding: 0.2em;
+  text-align: center;
+  font-weight: 300;
+  background: #8d2b24;
+  color: white;
+  border-radius: 3px 3px 0 0;
+}
+/* line 96, ../sass/base.scss */
+.md-content h4 {
+  color: #8d2b24;
+  font-weight: 200;
+  margin: 10px 0;
+  text-align: center;
+}
+/* line 102, ../sass/base.scss */
+.md-content p {
+  color: white;
+}
+/* line 106, ../sass/base.scss */
+.md-content button {
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+  padding: 10px 0;
+}
+/* line 110, ../sass/base.scss */
+.md-content button.FancyUpload {
+  background: #9c3c1a;
+  height: 60px!Important;
+  margin: 10px 0 0 0;
+}
+/* line 116, ../sass/base.scss */
+.md-content button.FancyUpload::after {
+  content: ": Selecionar uma imagem ";
+}
+/* line 119, ../sass/base.scss */
+.md-content button.FancyUpload:hover {
+  background: #702b13;
+}
+
+/* line 1, ../sass/modules/menu-off-canvas.scss */
+.nav-button {
+  background-color: #db5627;
+}
+
+/* line 2, ../sass/modules/menu-off-canvas.scss */
+.button, .menu-button, .close-button {
+  background: transparent;
+  border: none;
+  color: transparent;
+  cursor: pointer;
+  text-indent: 2.5em;
+}
+
+/* line 10, ../sass/modules/menu-off-canvas.scss */
+.menu-button {
+  width: 2em;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  position: absolute;
+  z-index: 1000;
+  border: 5px solid #db5627;
+  border-radius: 0px;
+}
+
+/* line 19, ../sass/modules/menu-off-canvas.scss */
+.menu-button::before {
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  bottom: 0em;
+  left: 0em;
+  background: linear-gradient(#ffffff 20%, #db5627 20%, #db5627 40%, #ffffff 40%, #ffffff 60%, #db5627 60%, #db5627 80%, #ffffff 80%);
+  content: '';
+}
+
+/* line 24, ../sass/modules/menu-off-canvas.scss */
+.menu-button:hover {
+  opacity: 0.6;
+  background: transparent;
+}
+
+/* line 29, ../sass/modules/menu-off-canvas.scss */
+.close-button {
+  width: 1em;
+  height: 1em;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  overflow: hidden;
+  font-size: 0.75em;
+}
+
+/* line 38, ../sass/modules/menu-off-canvas.scss */
+.close-button::before,
+.close-button::after {
+  width: 3px;
+  height: 100%;
+  margin: "";
+  padding: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  content: '';
+  background: white;
+}
+
+/* line 45, ../sass/modules/menu-off-canvas.scss */
+.close-button::before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 49, ../sass/modules/menu-off-canvas.scss */
+.close-button::after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 53, ../sass/modules/menu-off-canvas.scss */
+.menu-wrap {
+  width: 300px;
+  height: 100%;
+  margin: "";
+  padding: 2.5em 1.5em 0;
+  -webkit-transform: translate3d(-320px, 0, 0);
+  transform: translate3d(-320px, 0, 0);
+  position: absolute;
+  z-index: 1001;
+  background: #8d2b24;
+  font-size: 1em;
+  -webkit-transition: -webkit-transform 0s;
+  transition: transform 0s;
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+/* line 64, ../sass/modules/menu-off-canvas.scss */
+.menu-wrap a, .menu-wrap a * {
+  color: white !important;
+}
+
+/* line 71, ../sass/modules/menu-off-canvas.scss */
+.menu-wrap a:hover,
+.menu-wrap a:focus,
+.menu-wrap a:hover *,
+.menu-wrap a:focus * {
+  color: #db5627 !important;
+}
+
+/* line 76, ../sass/modules/menu-off-canvas.scss */
+.menu,
+.icon-list {
+  height: 100%;
+}
+
+/* line 80, ../sass/modules/menu-off-canvas.scss */
+.icon-list {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+/* line 84, ../sass/modules/menu-off-canvas.scss */
+.icon-list a {
+  display: block;
+  padding: 0.8em;
+  -webkit-transform: translate3d(0, 500px, 0);
+  transform: translate3d(0, 500px, 0);
+}
+
+/* line 91, ../sass/modules/menu-off-canvas.scss */
+.icon-list,
+.icon-list a {
+  -webkit-transition: -webkit-transform 0s;
+  transition: transform 0s;
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+/* line 96, ../sass/modules/menu-off-canvas.scss */
+.icon-list a:nth-child(2) {
+  -webkit-transform: translate3d(0, 1000px, 0);
+  transform: translate3d(0, 1000px, 0);
+}
+
+/* line 100, ../sass/modules/menu-off-canvas.scss */
+.icon-list a:nth-child(3) {
+  -webkit-transform: translate3d(0, 1500px, 0);
+  transform: translate3d(0, 1500px, 0);
+}
+
+/* line 104, ../sass/modules/menu-off-canvas.scss */
+.icon-list a:nth-child(4) {
+  -webkit-transform: translate3d(0, 2000px, 0);
+  transform: translate3d(0, 2000px, 0);
+}
+
+/* line 108, ../sass/modules/menu-off-canvas.scss */
+.icon-list a:nth-child(5) {
+  -webkit-transform: translate3d(0, 2500px, 0);
+  transform: translate3d(0, 2500px, 0);
+}
+
+/* line 112, ../sass/modules/menu-off-canvas.scss */
+.icon-list a:nth-child(6) {
+  -webkit-transform: translate3d(0, 3000px, 0);
+  transform: translate3d(0, 3000px, 0);
+}
+
+/* line 116, ../sass/modules/menu-off-canvas.scss */
+.icon-list a span {
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+/* Shown menu */
+/* line 122, ../sass/modules/menu-off-canvas.scss */
+.show-menu .menu-wrap {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 0s;
+  transition: transform 0s;
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+/* line 129, ../sass/modules/menu-off-canvas.scss */
+.show-menu .icon-list,
+.show-menu .icon-list a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 0s;
+  transition: transform 0s;
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+/* line 135, ../sass/modules/menu-off-canvas.scss */
+.show-menu .icon-list a {
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+}
+
+/* line 139, ../sass/modules/menu-off-canvas.scss */
+.show-menu .content::before {
+  opacity: 1;
+  -webkit-transition: opacity 0s;
+  transition: opacity 0s;
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 1, ../sass/modules/modal.scss */
+.md-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: auto;
+  margin: "";
+  padding: "";
+  max-width: 630px;
+  min-width: 320px;
+  z-index: 2000;
+  visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* line 11, ../sass/modules/modal.scss */
+.md-show {
+  visibility: visible;
+}
+
+/* line 15, ../sass/modules/modal.scss */
+.md-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  z-index: 1000;
+  opacity: 0;
+  background: #404040;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+}
+
+/* line 25, ../sass/modules/modal.scss */
+.md-show ~ .md-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Individual modal styles with animations/transitions */
+/* Effect 8: 3D flip horizontal */
+/* line 34, ../sass/modules/modal.scss */
+.md-effect-8.md-modal {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 38, ../sass/modules/modal.scss */
+.md-effect-8 .md-content {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateY(-70deg);
+  -moz-transform: rotateY(-70deg);
+  -ms-transform: rotateY(-70deg);
+  transform: rotateY(-70deg);
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  transition: all 0s;
+  opacity: 0;
+}
+
+/* line 45, ../sass/modules/modal.scss */
+.md-show.md-effect-8 .md-content {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+/* Content styles */
+/* line 52, ../sass/modules/modal.scss */
+.md-content {
+  color: #fff;
+  background: #e74c3c;
+  position: relative;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+/* line 60, ../sass/modules/modal.scss */
+.md-content > div {
+  padding: 15px 25px 5px;
+  margin: 0;
+}
+
+@media screen and (max-width: 32em) {
+  /* line 66, ../sass/modules/modal.scss */
+  body {
+    font-size: 75%;
+  }
+}
+/* line 1, ../sass/modules/form.scss */
+::-webkit-input-placeholder {
+  color: gray;
+}
+
+/* line 4, ../sass/modules/form.scss */
+::-moz-placeholder {
+  color: gray;
+}
+
+/* line 7, ../sass/modules/form.scss */
+:-ms-input-placeholder {
+  color: gray;
+}
+
+/* line 10, ../sass/modules/form.scss */
+:-moz-placeholder {
+  color: gray;
+}
+
+/*input:required {
+    border-color: ;
+}
+/*input[type="text"]{
+	@include Size(100%, 35px, 0, 1.0em);
+	border: none;
+	border-radius: 3px;
+}
+*/
+/* line 22, ../sass/modules/form.scss */
+input, textarea {
+  width: 100%;
+  height: 35px;
+  margin: 0;
+  padding: 1em;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: #404040;
+}
+
+/* line 30, ../sass/modules/form.scss */
+label {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  padding: 0;
+  clear: both;
+  display: block;
+}
+/* line 34, ../sass/modules/form.scss */
+label span {
+  color: white !important;
+  margin: 0 15px 0 5px;
+}
+
+/* line 40, ../sass/modules/form.scss */
+input.form-fill, textarea.form-fill {
+  border-color: #4c8454;
+  color: #43744a !important;
+}
+
+/* line 45, ../sass/modules/form.scss */
+input.form-error, textarea.form-error {
+  border-color: #8d2b24;
+  color: #8d2b24 !important;
+}
+
+/* line 50, ../sass/modules/form.scss */
+input:focus, textarea:focus, div:focus {
+  border: 2px solid gray;
+}
+
+/* line 54, ../sass/modules/form.scss */
+div:focus {
+  border-color: gray;
+}
+
+/* line 58, ../sass/modules/form.scss */
+textarea {
+  color: #404040;
+  height: 75px;
+}
+
+/* line 65, ../sass/modules/form.scss */
+input[type="radio"], textarea[type="radio"], input[type="checkbox"], textarea[type="checkbox"] {
+  width: auto;
+  height: 35px;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  color: white;
+}
+
+/* line 74, ../sass/modules/form.scss */
+.FancySelect div {
+  width: 100%;
+  height: 35px;
+  margin: 0;
+  padding: 1em;
+  background-image: url("../images/arrow-down-select.png");
+  background-size: auto;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center right;
+  border-right: 10px solid #FFF;
+  border-radius: 3px;
+  color: #404040;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1em;
+  line-height: 0em;
+}
+/* line 85, ../sass/modules/form.scss */
+.FancySelect ul {
+  position: relative;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+}
+/* line 91, ../sass/modules/form.scss */
+.FancySelect ul li {
+  color: #404040;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+/* line 97, ../sass/modules/form.scss */
+.FancySelect ul li:hover {
+  background-color: #8d2b24;
+  color: white;
+}
+
+/* line 7, ../sass/theme.scss */
+body {
+  background-color: #efefef;
+  color: #404040;
+  font-family: "Dosis", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+/* line 12, ../sass/theme.scss */
+header {
+  background-color: #db5627;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 10px 0;
+}
+/* line 16, ../sass/theme.scss */
+header div {
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  margin: 0 10px;
+}
+/* line 21, ../sass/theme.scss */
+header .nav-button {
+  float: left;
+}
+/* line 23, ../sass/theme.scss */
+header .usertools {
+  float: right;
+}
+/* line 25, ../sass/theme.scss */
+header .logo {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 110px;
+  height: auto;
+  margin: 0 0 0 -55px;
+  padding: 0;
+  text-align: center;
+}
+/* line 31, ../sass/theme.scss */
+header h1 {
+  color: white;
+  font-weight: 200;
+  margin-left: 1.25em;
+}
+
+/* line 37, ../sass/theme.scss */
+nav.ContenxtMenu {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+}
+/* line 44, ../sass/theme.scss */
+nav.ContenxtMenu ul li a {
+  color: gray;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+/* line 48, ../sass/theme.scss */
+nav.ContenxtMenu ul li.active a, nav.ContenxtMenu ul li a:hover {
+  color: #db5627;
+}
+
+/* line 53, ../sass/theme.scss */
+section {
+  max-width: 100%;
+  clear: both;
+  margin: 55px 0;
+}
+/* line 58, ../sass/theme.scss */
+section .wrap {
+  margin: 1.562% auto;
+  overflow: hidden;
+  width: 1120px;
+}
+/* line 63, ../sass/theme.scss */
+section .wrap .ContentTitle {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+  overflow: auto;
+}
+/* line 67, ../sass/theme.scss */
+section .wrap .ContentTitle h2, section .wrap .ContentTitle .filter {
+  float: left;
+  width: "";
+  height: "";
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+/* line 72, ../sass/theme.scss */
+section .wrap .ContentTitle div.filter ul {
+  margin-top: 10px;
+}
+/* line 74, ../sass/theme.scss */
+section .wrap .ContentTitle div.filter ul li {
+  display: inline;
+  border-right: 1px solid #999;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+/* line 80, ../sass/theme.scss */
+section .wrap .ContentTitle div.filter ul a {
+  color: gray;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+/* line 83, ../sass/theme.scss */
+section .wrap .ContentTitle div.filter ul .selected a, section .wrap .ContentTitle div.filter ul a:hover {
+  color: #db5627;
+}
+
+/* line 94, ../sass/theme.scss */
+div.mod-section div.image {
+  width: 100%;
+  height: 8em;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/sct-sample.png);
+  background-position: no-repeat 200% auto;
+  background-repeat: top left;
+  background-size: 200%;
+  text-indent: -9999px;
+  max-width: 620px;
+}
+/* line 102, ../sass/theme.scss */
+div.mod-section div.image:hover {
+  background-position: top right;
+}
+/* line 105, ../sass/theme.scss */
+div.mod-section div.info {
+  width: 100%;
+  height: 4em;
+  margin: 0;
+  padding: 1em;
+  background-color: white;
+}
+
+
+
+/* --------------------  Alterações adicionais --------------------- */
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px;
+  direction: ltr;
+  cursor: pointer;
+}
+
+/* IE < 8 */
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}
+
+#porcentagem{width: 578px; border: solid 1px #000; margin-top: 10px; margin-bottom: 10px;  text-align: center; display: none;}
+#mensagem{margin-top: 10px; display: none;}
+#barra{color: #000; background-color: #900; width: 0px; color: #000; padding: 2px 0px 0px 0px; display: none;}
+
+.liSelecionadoAtual li {
+  color: #404040;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+
+.liSelecionadoNovo li {
+  background-color: #8d2b24;
+  color: white;
+}
+
+.marcadorPai {list-style-type: square;}
+.marcadorFilho {list-style-type: disc;}
